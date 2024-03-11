@@ -1,0 +1,183 @@
+html {
+    background-color: #2C2C2C;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #2C2C2C;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: left;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header a {
+    font-size: 14px;
+    color: #666;
+    text-decoration:none;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    
+    margin-left: 10px;
+}
+
+.page-title img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.result-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.date {
+    font-size: 0.6em;
+    color: #666;
+}
+
+.input-container {
+    display: inline-block;
+}
+
+.input-container input,
+.input-container select  {
+background-color: #2C2C2C;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container input[type="text"] {
+    background-color: #2C2C2C;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ui-autocomplete {
+    background-color: #2C2C2C;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 9999;
+}
+
+.ui-menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input-container button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    margin-bottom: 10px;
+}
+
+.select-container {
+    margin-bottom: 10px;
+
+}
+
+button {
+    background-color: #0056b3; 
+    color: #2C2C2C;
+    border: 1px solid #0056b3;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5s, border-color 0.3s, color 0.4s;
+}
+
+button:hover {
+    background-color: #0077E2;
+    color: #FFFFFF;
+}
+
+button:active {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: transparent !important;
+    color: #007BFF;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer li {
+    margin-right: 20px;
+}
+
+.fab, .fas, .fa-solid {
+    font-size: 1.2em;    
+    color: #2C2C2C; 
+    margin-right: 10px;  
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>CoinSnark</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+	    <link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="icon" href="assets/images/coin.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+		<!-- Main -->
+	    <div class="container">
+			
+	        <div class="header">
+	            <h1 class="page-title"><img src="assets/images/coin.png" alt="Logo">Coin Snark</h1>
+	            <p class="description">Currency Conversion&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://rmottanet.gitbook.io/coinsnark" target="_blank">Documentation</a></p>
+	        </div>
+	        
+	        <div class="form-container">
+				
+	            <div class="result-container" id="result">
+	                <!-- Result display  -->
+	            </div>
+	            
+	            <div class="input-container">
+					
+	                <input type="number" id="amount" placeholder="Enter amount" step="1" min="0" pattern="\d+(\.\d{2})?" required>
+	                <div class="buttons-container">
+	                    <button id="eurToBrl">EUR to BRL</button>
+	                    <button id="usdToBrl">USD to BRL</button>
+	                </div>
+					<div class="select-container">
+					    <input type="text" id="fromCurrencyInput" placeholder="Search for currency...">
+					    <input type="hidden" id="fromCurrency">
+					</div>
+					<div class="select-container">
+					    <input type="text" id="toCurrencyInput" placeholder="Search for currency...">
+					    <input type="hidden" id="toCurrency">
+					</div>
+	                <button id="convertButton">Convert</button>
+	            
+	            </div>
+	        </div>
+	    </div>
+	
+	    <!-- Footer -->
+	    <footer id="footer-group" class="footer">
+	        <ul>
+				<li><a href="https://rmottanet.github.io" target="_blank"><i class="fas fa-code"></i></a></li>
+		        <li><a href="https://github.com/rmottanet" target="_blank"><i class="fab fa-github"></i></a></li>
+		        <li><a href="https://gitlab.com/rmottanet" target="_blank"><i class="fab fa-gitlab"></i></a></li>
+		        <li><a href="https://instagram.com/rmottanet" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		        <li><a href="https://www.linkedin.com/in/rmottanet/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+		    </ul>
+	    </footer>
+	    
+	    <script src="assets/js/jquery-3.7.0.min.js"></script>
+	    <script src="assets/js/jquery-ui.min.js"></script>
+	    <script src="assets/js/fetcher.js"></script>
+	    <script src="assets/js/utils.js"></script>
+	    <script src="assets/js/main.js"></script>
+	</body>
+</html>
